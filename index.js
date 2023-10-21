@@ -5,14 +5,6 @@ const navbar = document.createElement("navbar")
 navbar.setAttribute("id", "navbar")
 body.append(navbar)
 
-const createH1 = (text) => {
-  const h1 = document.createElement("h1")
-  h1.innerText = text
-  h1.style.textAlign = "center"
-  body.append(h1)
-  return h1
-}
-
 const createDiv = (id, text, text2) => {
   const div = document.createElement("div")
   div.setAttribute("id", id)
@@ -86,7 +78,6 @@ const createButton = (text) => {
   button.style.height = "30px"
   button.innerText = text
   button.style.marginTop = "400px"
-  box.append(button)
   return button
 }
 
